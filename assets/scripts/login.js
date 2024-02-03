@@ -1,3 +1,3 @@
-function cambiarPaginas() {
-    window.location.href = "";
+function cambiarPagina() {
+    window.location.href = '../pages/contactos.html';
 }
