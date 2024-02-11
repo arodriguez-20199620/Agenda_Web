@@ -19,5 +19,21 @@ function generateTableData() {
 }
 
 function detalleContacto(number) {
-    
+    switch (number) {
+        case 1:
+            console.log("Apellido es Rodriguez")
+
+            break;
+        case 2:
+            console.log("Apellido es Siney")
+
+            break;
+        case 3:
+        default:
+            break;
+    }
+}
+
+function cambioPagina() {
+    window.location.href = `../pages/nuevoContacto.html`;
 }
