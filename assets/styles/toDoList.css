@@ -1,0 +1,22 @@
+nav {
+    background-color: #173640;
+}
+
+.btn-danger{
+    background-color: #EB3945;
+}
+
+
+#todo-list {
+    width: 300px;
+  }
+  .task {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .priority {
+    font-weight: bold;
+  }
